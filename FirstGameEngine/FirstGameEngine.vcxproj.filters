@@ -31,7 +31,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\spaceShip.bmp">
+    <Image Include="..\Images\space.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\spaceShip.bmp">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
