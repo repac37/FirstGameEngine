@@ -11,7 +11,6 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -21,6 +20,9 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+
+# Ignore all directories, and all sub-directories, and it's contents:
+*/*[Dd]ebug/
 
 # Visual Studio 2015 cache/options directory
 .vs/
